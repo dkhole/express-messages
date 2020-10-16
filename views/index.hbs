@@ -1,0 +1,18 @@
+<h1>{{title}}</h1>
+<div id="message-board">
+    <ul class="message-list">
+        {{#each messages}}
+        <li>
+            <div class="message">
+                <p class="user-txt">{{this.user}}:</p>
+                <p class="msg-txt">{{this.text}}.</p>
+            </div>
+            <div class="timestamp">
+                <p class="time-txt">Sent at {{this.added}}</p>
+            </div>
+        </li>
+        {{/each}}
+    </ul>
+    <a href="/new" id="new-link">New Message</a>
+
+</div>

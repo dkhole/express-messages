@@ -1,0 +1,130 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  height: 10%;
+  width: 100%;
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#message-board {
+  width: 100%;
+  height: 90%;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: blue;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  width: 80%;
+  height: 80%;
+  background-color: rgba(170, 170, 170, 0.7);
+}
+
+li {
+  height: 10%;
+  width: 100%;
+  background-color: purple;
+  list-style: none;
+}
+
+.message {
+  width: 80%;
+  height: 100%;
+  float: left;
+
+  display: flex;
+  align-items: center;
+  background-color: pink;
+}
+
+.user-txt {
+  position: relative;
+  font-size: 1.25rem;
+  left: 10px;
+  margin: 0;
+}
+
+.msg-txt {
+  position: relative;
+  left: 20px;
+  margin: 0;
+}
+
+.timestamp {
+  width: 20%;
+  height: 100%;
+  float: left;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.time-txt {
+  margin-right: 10px;
+}
+
+#new-link {
+  position: absolute;
+  bottom: 12.5%;
+  font-size: 1.2rem;
+}
+
+#form-wrapper {
+  height: 90%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+form {
+  height: 80%;
+  width: 60%;
+  padding: 20px;
+  background-color: pink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#msg-label {
+  margin-top: 100px;
+}
+
+#new-msg {
+  height: 60%;
+  padding: 50px;
+  word-break: break-word;
+  width: 70%;
+  padding: 0 10px 200px 10px;
+  font-size: 1.25rem;
+}
+
+#username {
+  padding: 10px;
+}
+
+label {
+  margin-bottom: 10px;
+}
+
+button {
+  margin-top: 50px;
+  height: 40px;
+  width: 80px;
+}
